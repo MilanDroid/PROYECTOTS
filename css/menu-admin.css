@@ -1,0 +1,50 @@
+body{
+	
+}
+
+header{
+	width: 100%;
+	overflow: hidden;
+	
+	margin-bottom: 20px;
+}
+
+.wrapper{
+	width: 90%;
+	max-width: 1000px;
+	margin:auto;
+	overflow:hidden;
+}
+
+header .logo{
+	color: #f2f2f2;
+	font-size: 45px;	
+	line-height: 70px;
+	float:left;
+}
+
+header nav {
+	float:right;
+	line-height: 85px;
+}
+
+header nav a{
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 20px;
+	line-height:normal;
+	font-size: 20px;
+	font-weight: bold;
+	-webkit-transition:all 350ms ease;
+	-o-transition:all 350ms ease;
+	transition:all 350ms ease;
+	border-radius:45px;
+
+}
+
+header nav a:hover{
+	background:     #eef3ef   ;
+		
+}
+
